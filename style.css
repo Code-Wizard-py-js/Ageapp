@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #032003, #064db8);
+    box-sizing: border-box;
+    color:white;
+   
+}
+div.col-lg-7.col-sm-12.mb-sm-4.mb-4 img{
+    margin-left:30px
+}
+a{
+
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+}
+div.items a:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(38, 64, 209);
+    box-shadow: #575b5c;
+    padding: 15px;
+    margin-top: 15px;
+    background:lightblue;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+    transition: all 0.5s ;
+}
+a.active{
+    color: #027488;
+    padding: 15px;
+    margin-top: 15px;
+    background:lightblue;
+    border-radius: 10px;
+    text-align: center;
+    
+    transition: all 0.5s ;
+}
+
+.sidebar {
+    background-color: #20232a;
+    padding-top: 20px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.sideItem a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.1s, color 0.1s;
+    margin-bottom: 25px;
+}
+
+.sideItem a:hover {
+    background-color: #61dafb;
+    color: black;
+    border-radius: 10px;
+}
+
+.enabled {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    margin-right:15px ;
+}
+
+/* Disabled Div */
+.disabled {
+    background-color: #ddd; /* Light gray color */
+    color: #888;
+   
+}
+input:hover,button:hover,.card:hover{
+ padding:10px;
+ background-color: #082a5e!important;
+ border-radius: 20px;
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.5);
+ cursor: pointer;
+ transition: all 0.03s;
+}
+input,button{
+    padding:10px;
+ background-color: #082a5e!important;
+ border-radius: 20px;
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.5);
+ cursor: pointer;
+ transition: all 0.03s;
+}
